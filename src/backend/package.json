@@ -1,0 +1,46 @@
+{
+  "name": "blogs_mania",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js && mongod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "async": "^2.6.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect": "~2.14.4",
+    "crypto": "~0.0.3",
+    "csprng": "~0.1.1",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.3",
+    "gravatar": "~1.0.6",
+    "helmet": "^3.21.2",
+    "log-timestamp": "^0.3.0",
+    "moment": "^2.22.2",
+    "mongodb": "^2.2.35",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1",
+    "morgan-body": "^2.4.0",
+    "node-fpe": "^1.0.0",
+    "request": "^2.88.0",
+    "util": "^0.12.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
